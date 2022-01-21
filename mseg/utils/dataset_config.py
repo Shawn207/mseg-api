@@ -9,7 +9,7 @@ from mseg.utils.names_utils import load_class_names
 
 # -------------------------------------------------------------
 # You must specify the parent directory of `mseg_dataset` below:
-MSEG_DST_DIR = ""
+MSEG_DST_DIR="/dummy/path"
 # -------------------------------------------------------------
 if MSEG_DST_DIR == "":
     raise Exception("You must populate the `MSEG_DST_DIR` variable in mseg/utils/dataset_config.py")
